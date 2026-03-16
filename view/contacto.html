@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- Conectar el archivo CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+<style>
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../view/productos.html">Producto</li>
+                    <li><a href="../view/servicios.html">Servicio</a></li>
+                    <li><a href="#">Contacto</li>
+
+                </ul>
+
+            </nav>
+        </header>
+
+        <div></div>
+
+        <main>
+            
+        <h2>Formulario de contacto</h2>
+
+		<form action="/action_page.php">
+			  <label for="fname">Usuario</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Your username..">
+
+			  <label for="lname">Password</label>
+			  <input type="password" id="lname" name="lastname" placeholder="Your password..">
+
+			  <label for="country">Rol</label>
+			  <select id="country" name="country">
+			    <option value="australia">Administrador</option>
+			    <option value="canada">Jefe</option>
+			    <option value="usa">Secretaria</option>
+			  </select>
+			  
+			  <input type="submit" value="Submit">
+		</form>
+        <img src="../imagenes/contacto.png" alt="">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.87955311037!2d-73.5990052254492!3d8.31476649976087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d8f7d27c7bf07%3A0xa72b1dc51f284557!2sUniversidad%20Popular%20del%20Cesar%20-%20Aguachica!5e0!3m2!1ses-419!2sco!4v1773434050949!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Esto es un párrafo dentro de un divisor</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jbgbaDj_ARk?si=Hsvg6vYHbt7zc_H9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Vero esse harum id qui nemo. Obcaecati autem maiores, laborum 
+        voluptates, harum amet magni eveniet veniam quibusdam voluptatem 
+        aperiam sunt cumque ex?
+        </p>
+    </div>
+    </main>
+
+</body>
+</html>
