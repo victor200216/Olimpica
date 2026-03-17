@@ -3,61 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS</title>
+	<title>Olimpica</title>
 </head>
 	<link rel="stylesheet" href="../css/style.css">
 <body>
 	<div class="container">
+		<img src="../img/olimpica_logo.png" alt="Logo Olímpica" class="logo" >
 		<header>
 			<nav class="menu">
 				<ul>
-					<li><a href="../index.html">Inicio</a></li>
-					<li><a href="productos.html">Productos</a></li>
-					<li><a href="#">Servicios</a></li>
-					<li><a href="contactos.html">Contacto</a></li>
+					<li><a href="../index.html"><img src="../img/boton_inicio.png" width="100" height="100"></a></li>
+					<li><a href="../view/productos.html"><img src="../img/boton_productos.png" width="100" height="100"></a></li>
+					<li><a href="#"><img src="../img/boton_servicio.png" width="100" height="100"></a></li>
+					<li><a href="../view/contactos.html"><img src="../img/boton_contactos.png" width="100" height="100"></a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>	
 			<img src="../img/servicio.jpeg" alt="Servicio">
-			<img src="../img/dia_sin_iva.jpeg" alt="Día sin IVA">
+			<img src="../img/dia_sin_iva.png" alt="Día sin IVA">
 			
-			<div class="main_principal">
-				<h2>Bienvenidos a mi página de Servicios</h2>	
-				<h2>aqui van los videos
-				</h2>	
-				
-
-<audio id="miAudio" src="sound/audio_main.mp3"></audio>
-
-<script>
-  // Seleccionamos el elemento de audio
-  const audio = document.getElementById("miAudio");
-
-  // Función para reproducir el audio
-  function reproducirAudio() {
-    audio.currentTime = 0; // Reinicia al inicio
-    audio.play();
-  }
-
-  // Reproduce el audio cada 10 segundos (10000 ms)
-  setInterval(reproducirAudio, 10000);
-</script>
-
-				
-				<p>Esto es un párrafo dentro de un divisor</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloremque facilis velit quis voluptatibus ullam quam, explicabo eum aut harum repudiandae aliquam, mollitia alias sit veniam eos sapiente pariatur tenetur.</p>
+			<div class="main_principal">								
+				<h1>Olímpica como empresa ofrece Servicios como:</h1>
+				<p>🛒 Supermercados y tiendas: venta de alimentos, productos de hogar y artículos de consumo diario.<br>
+				💊 Farmacias: medicamentos, productos de salud y cuidado personal.<br>
+				🎶 Entretenimiento y electrodomésticos: equipos de sonido, televisores, celulares y tecnología.<br>
+				🏦 Servicios financieros: tarjetas de crédito propias y programas de beneficios para clientes.</p>
 			</div>
 		</main>
 
-		<footer>
-			<p>Pie de mi página web</p>
+		<footer class="bottom">
+			<p>Página web realizada por Calletana López Baleta © 2024</p>
+			<div class="social">
+			<a href="https://web.facebook.com/SupertiendaOlimpica/?_rdc=1&_rdr#"><img src="../img/boton_facebook.png" alt="Facebook"></a>
+			<a href="https://www.instagram.com/supertiendasolimpica/"><img src="../img/boton_instagram.png" alt="Instagram"></a>
+			<a href="https://www.linkedin.com/company/supertiendas-ol%C3%ADmpica/?originalSubdomain=co"><img src="../img/boton_linkedin.png" alt="LinkedIn"></a>
+			</div>
 		</footer>
 	</div>
 </body>

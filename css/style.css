@@ -13,18 +13,22 @@
 }
 
 header{
-	background: green;
+	background: white;
 	width: 100%;
 }
 /* Estilo para el logo */
-    .logo {
-      position: absolute;   /* Lo fija en la esquina */
-      top: 10px;            /* Separación desde arriba */
-      left: 150px;           /* Separación desde la izquierda */
-      width: 90px;          /* Tamaño pequeño */
-      height: auto;         /* Mantiene proporción */
-    }
-    /* Ajuste del body para que no se superponga */
+.logo {
+  position: absolute;   /* Lo fija en la esquina */
+  top: 10px;            /* Separación desde arriba */
+  left: 150px;           /* Separación desde la izquierda */
+  width: 90px;          /* Tamaño pequeño */
+  height: auto;         /* Mantiene proporción */
+}
+/* Ajuste del body para que no se superponga */
+.titulo {
+  margin-top: 100px; /* Deja espacio para el logo */
+
+}
 /**/
 body {
   margin: 0;
@@ -88,7 +92,7 @@ body {
 
 nav {
   display: flex;          /* Activa flexbox */
-  justify-content: flex-end; /* Mueve todo a la derecha */
+  justify-content: center; /* Mueve todo al centro*/
   background-color: #fff; /* opcional */
   padding: 10px;          /* espacio interno */
 }
