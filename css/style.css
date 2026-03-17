@@ -20,15 +20,45 @@ header{
     .logo {
       position: absolute;   /* Lo fija en la esquina */
       top: 10px;            /* Separación desde arriba */
-      left: 60px;           /* Separación desde la izquierda */
+      left: 150px;           /* Separación desde la izquierda */
       width: 90px;          /* Tamaño pequeño */
       height: auto;         /* Mantiene proporción */
     }
     /* Ajuste del body para que no se superponga */
-    body {
-      margin: 0;
-      padding: 0;
-    }
+/**/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.top {
+  background: peachpuff;
+}
+
+.middle {
+  background: #fff;
+  padding-left: 960px;
+}
+
+.bottom {
+  background: green;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.small { font-size: 12px; }
+.highlight { background: yellow; }
+.underline { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+
+.social img {
+  width: 30px;
+  margin: 0 5px;
+}
+/**/
 .container main img{
 	width: 100%;
 } 
