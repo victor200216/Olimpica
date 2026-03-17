@@ -5,7 +5,7 @@
 /*Selector class*/
 
 .container{
-	width: 90%;
+	width: 1200;
 	border: 2px solid orange;
 	padding: 10px;
 	text-align: justify;
@@ -43,7 +43,7 @@ body {
 
 .middle {
   background: #fff;
-  padding-left: 960px;
+  padding-left: 50%;
 }
 
 .bottom {
